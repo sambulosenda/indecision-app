@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/bin/node /home/sambulo/.yarn/bin/yarn.js add babel-preset-react@6.24.1 babel-preset-inv@1.5.2
+
+PATH: 
+  /home/sambulo/.yarn/bin:/home/sambulo/.config/yarn/global/node_modules/.bin:/home/sambulo/.yarn/bin:/home/sambulo/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-preset-inv: Not found
+      at Request.params.callback [as _callback] (/home/sambulo/.yarn/lib/cli.js:65894:18)
+      at Request.self.callback (/home/sambulo/.yarn/lib/cli.js:129018:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/home/sambulo/.yarn/lib/cli.js:129990:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/home/sambulo/.yarn/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "indecision-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "sambulo senda",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
